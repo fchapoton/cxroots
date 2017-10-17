@@ -5,9 +5,9 @@ python:
 
 install:
   - pip install cxroots
-
-script:
   - pip download cxroots --no-deps
   - tar -xzf cxroots-*.tar.gz
   - cd cxroots-*
+
+script:
   - python setup.py test
