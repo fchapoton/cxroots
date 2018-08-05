@@ -10,4 +10,4 @@ install:
   - cd cxroots-*
 
 script:
-  - python setup.py test
+  - python setup.py test --addopts '-n 2'
