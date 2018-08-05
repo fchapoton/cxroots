@@ -10,4 +10,4 @@ install:
   - cd cxroots-*
 
 script:
-  - python setup.py test --addopts '-v -n 2'
+  - travis_wait python setup.py test --addopts '-v -n 2'
