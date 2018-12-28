@@ -4,7 +4,6 @@ python:
   - "3.6"
 
 install:
-  - pip install cxroots
   - pip download cxroots --no-deps
   - tar -xzf cxroots-*.tar.gz
   - cd cxroots-*
