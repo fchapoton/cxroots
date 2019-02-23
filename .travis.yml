@@ -9,4 +9,4 @@ install:
   - cd cxroots-*
 
 script:
-  - python setup.py test --addopts "-v -n 2 -m 'not slow'"
+  - python setup.py test --addopts "-v -m 'not slow'"
